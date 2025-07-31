@@ -6,6 +6,7 @@
 
 int main() {
 
+	// Dynamically allocating memory for efficiency.
 	Player * player1 = new Human();
 	Player * player2 = new Computer();
 	Referee * ref = new Referee();
@@ -19,6 +20,7 @@ int main() {
 		cout << winner->getName() << " Wins." << endl;
 	}
 
+	// Deleting dynamically allocated variables to free memory.
 	delete player1;
 	delete player2;
 	delete ref;
