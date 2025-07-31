@@ -5,7 +5,8 @@
 
 class Computer : public Player {
 	public:
-	Computer() {name = "Computer"; move = 'R';}
+	Computer();
+	virtual char makeMove();
 };
 
 #endif

@@ -7,6 +7,7 @@ class Human : public Player {
 	public:
 	Human();
 	Human(string name);
+	virtual char makeMove();
 };
 
 #endif
